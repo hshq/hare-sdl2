@@ -1,7 +1,11 @@
 .POSIX:
 .SUFFIXES:
 
+include ../hare.git/config.mk
+
 LIBS=-lc -lSDL2_image -lSDL2_mixer -lSDL2
+# ⚠️ NOTE Modify it:
+LIBS+=-L/opt/homebrew/lib
 
 demo:
 	hare build $(LIBS) cmd/demo
