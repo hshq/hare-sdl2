@@ -10,5 +10,4 @@ Please do not make GUIs with this.
 ## Usage
 
 * Install `libsdl2`, `libsdl2-image`, `libsdl2-mixer` and `libopusfile`.
-* Clear `Hare` cache: `hare cache -c`.
 * Run `make run` to run the demo.
