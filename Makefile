@@ -1,9 +1,6 @@
 .POSIX:
 .SUFFIXES:
 
-# include ../hare.git/config.mk
-export QBE=hare-qbe.sh
-
 LIBS=-lc -lSDL2_image -lSDL2_mixer -lSDL2
 # ⚠️ NOTE Modify it:
 LIBS+=-L/opt/homebrew/lib
